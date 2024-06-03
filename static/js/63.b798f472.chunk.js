@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstudy_up=self.webpackChunkstudy_up||[]).push([[63],{8063:(e,s,p)=>{e.exports=p.p+"static/media/R14.e3eaaecd767b97fcb3a2.jpg"}}]);
