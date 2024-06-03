@@ -1,0 +1,275 @@
+@media screen and (width >= 1440px) {
+  .show_title {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 105.6px;
+    margin-bottom: 44px;
+  }
+
+  .course_list {
+    gap: 30px;
+  }
+
+  .course {
+    width: 635px;
+    height: 530px;
+
+    .image {
+      width: 635px;
+      height: 320px;
+    }
+
+    .content {
+      padding-top: 40px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 39.6px;
+        margin-bottom: 20px;
+      }
+
+      .price {
+        .price_num {
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 50.4px;
+
+          .unit {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 50.6px;
+          }
+        }
+
+        .btn {
+          padding: 14px 37px;
+          gap: 10px;
+          font-family: "PingFang SC";
+
+          .image {
+            width: 21px;
+            height: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width >= 1024px) and (width <= 1440px) {
+  .show_title {
+    margin-bottom: 44px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+  }
+
+  .course_list {
+    gap: 12px;
+  }
+
+  .course {
+    width: 486px;
+    height: 391px;
+    border-radius: 16px !important;
+
+    .image {
+      width: 486px;
+      height: 245px;
+    }
+
+    .content {
+      padding-top: 20px;
+      padding-left: 16px;
+      padding-right: 16px;
+
+      .title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+
+      .price {
+        .price_num {
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 44.8px;
+
+          .unit {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 44.6px;
+          }
+        }
+
+        .btn {
+          padding: 13px 42px;
+          gap: 6px;
+          font-family: "PingFang SC";
+
+          .image {
+            width: 21px;
+            height: 10px;
+            margin-left: 6px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (width <= 1024px) {
+  .show {
+    position: relative;
+    padding-top: 17vw;
+    gap: 2.9vw !important;
+  }
+
+  .show_title {
+    font-size: 8.5vw;
+    font-weight: 700;
+    line-height: 9.3vw;
+  }
+
+  .out_title {
+    position: absolute;
+    top: 0;
+    display: block !important;
+  }
+
+  .inset_title {
+    display: none !important;
+  }
+
+  .course_list {
+    gap: 3.2vw;
+  }
+
+  .course {
+    width: 44.2vw;
+    height: 43.2vw;
+    border-radius: 3.2vw !important;
+
+    .image {
+      width: 100%;
+      height: 22.4vw;
+    }
+
+    .content {
+      padding-top: 3.2vw;
+      padding-left: 3.2vw;
+      padding-right: 3.2vw;
+
+      .title {
+        font-size: 3.4vw;
+        font-weight: 700;
+        line-height: 3.8vw;
+        margin-bottom: 3vw;
+      }
+
+      .price {
+        .price_num {
+          font-size: 5.3vw;
+          font-weight: 600;
+          line-height: 4.5vw;
+
+          .unit {
+            font-size: 3.2vw;
+            font-weight: 600;
+            line-height: 4.5vw;
+          }
+        }
+
+        .btn {
+          padding: 0.5vw 1.86vw;
+          gap: 0;
+          font-family: "PingFang SC";
+
+          span {
+            display: none;
+          }
+
+          .image {
+            width: 2.6vw;
+            height: 1.6vw;
+            margin-left: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.show_title {
+  font-family: eryaxindahei;
+  text-align: center;
+  color: #fff;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  .out_title {
+    display: none;
+  }
+
+  .course_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    .course {
+      overflow: hidden;
+      border-radius: 32px;
+      border: 3px solid #5886FF;
+      background-color: #0b111c;
+
+      .image {
+        border-radius: 30px 30px 0 0;
+      }
+
+      .content {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+        .title {
+          font-family: eryaxindahei;
+          text-align: left;
+          color: #fff;
+        }
+
+        .price {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .price_num {
+            color: #9CB2EC;
+            font-family: "PingFang SC";
+          }
+
+          .btn {
+            border-radius: 16px;
+            background: linear-gradient(180deg, #5887FF 0%, #5886FF 0.01%, #3649F3 100%);
+            color: #fff;
+            font-family: "PingFang SC";
+          }
+        }
+
+      }
+    }
+  }
+}

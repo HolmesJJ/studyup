@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e0e4f4;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+/* PingFang SC   eryaxindahei   Alibaba PuHuiTi 2.0 */
+@font-face {
+  font-family: eryaxindahei;
+  src: url("../public/fonts/尔雅新大黑-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../public/fonts/PingFang_Medium_downcc.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi 2.0";
+  src: url("../public/fonts/AlibabaPuHuiTi-2-85-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}

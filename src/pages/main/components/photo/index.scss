@@ -1,0 +1,188 @@
+/* pc */
+@media screen and (width >= 1440px) {
+  .photo {
+    width: 1180px;
+    height: 773px;
+
+    .Car_image {
+      width: 1062px;
+      height: 479px;
+    }
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .sub_title {
+    font-size: 24px;
+  }
+
+  .level {
+    font-size: 20px;
+  }
+
+}
+
+/* pad */
+@media screen and (width >= 1024px) and (width <= 1440px) {
+  .photo {
+    width: 984px;
+    height: 644px;
+
+    .Car_image {
+      width: 885px;
+      height: 405px;
+    }
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .sub_title {
+    font-size: 20px;
+  }
+
+  .level {
+    font-size: 16px;
+  }
+}
+
+// phone
+@media screen and (width <= 1024px) {
+  .photo {
+    width: 80vw;
+    height: 36vw;
+
+    .Car_image {
+      width: 72vw;
+      height: 47.7vw;
+    }
+  }
+
+  .arrow-btn {
+    width: 8vw !important;
+    height: 8vw !important;
+  }
+
+  .modal {
+    width: 73vw !important;
+    height: 35.2vw !important;
+    gap: 0.6vw !important;
+    bottom: 9.6vw !important;
+    margin-bottom: 0 !important;
+  }
+
+  .title {
+    font-size: 3.7vw;
+    line-height: 4.1vw;
+  }
+
+  .sub_title {
+    font-size: 3.2vw;
+    line-height: 4.4vw;
+  }
+
+  .level {
+    font-size: 2.6vw;
+    line-height: 3.7vw;
+
+    .star {
+      width: 2.6vw !important;
+      height: 2.6vw !important;
+    }
+  }
+}
+
+.group-photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 62%;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 50px 50px 150px #4d63a0,
+    50px 50px 200px #4b62a2;
+
+  .Car_image {
+    object-fit: cover;
+
+  }
+
+  .ant-carousel .slick-slider .slick-dots{
+    justify-content: end !important;
+    margin-right: 10% !important;
+  }
+
+  .arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: rgb(255 255 255 / 60%);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .left-arrow-btn {
+    left: 20px;
+  }
+
+  .right-arrow-btn {
+    right: 20px;
+  }
+}
+
+.modal {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 52%;
+  height: 38%;
+  margin-bottom: 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 32px;
+  background: rgb(231 234 247 / 80%);
+  color: #060C2C;
+  backdrop-filter: blur(8px);
+  box-shadow: 50px 50px 150px #4d63a0,
+    50px 50px 200px #4b62a2;
+
+  .title {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: eryaxindahei;
+    font-weight: 600;
+    line-height: 35.2px;
+
+    span {
+      text-decoration: none;
+      color: #2775FF;
+    }
+  }
+
+  .sub_title {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+
+  .level {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+  }
+}

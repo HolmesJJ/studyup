@@ -1,0 +1,273 @@
+{
+  "headers": [
+    {
+      "image": "header1.jpg",
+      "title": {
+        "name": "Health and Well-being",
+        "prize": "特等奖"
+      },
+      "sub_title": "新加坡计算机协会 (SCS) Splash Awards 2023",
+      "level": "A",
+      "difficulty": 5,
+      "popularity": 5
+    },
+    {
+      "image": "header2.png",
+      "title": {
+        "name": "Prize for Social Good",
+        "prize": "全球前七名"
+      },
+      "sub_title": "PingCAP TiDB Future App Hackathon 2023",
+      "level": "A",
+      "difficulty": 5,
+      "popularity": 5
+    },
+    {
+      "image": "header3.png",
+      "title": {
+        "name": "Seeds for the Future",
+        "prize": "全球前10名"
+      },
+      "sub_title": "华为 Tech4Good Global Competition 2023",
+      "level": "A",
+      "difficulty": 5,
+      "popularity": 5
+    },
+    {
+      "image": "header4.jpg",
+      "title": {
+        "name": "新加坡区域赛",
+        "prize": "全球前5名"
+      },
+      "sub_title": "世坤 International Quant Championship 2023",
+      "level": "A",
+      "difficulty": 5,
+      "popularity": 5
+    }
+  ],
+  "A": [
+    {
+      "image": "A1.png",
+      "title": "华为 Tech4Good",
+      "price": 8000,
+      "target": "保Top10",
+      "start_time": "2023/10",
+      "end_time": "2024/01",
+      "tags": ["编程", "产品", "创新"],
+      "status": "即将开始",
+      "link": "https://www.huawei.com/minisite/seeds-for-the-future/tech4good.html"
+    },
+    {
+      "image": "A2.png",
+      "title": "PingCAP TiDB Hackathon",
+      "price": 8000,
+      "target": "保Top10",
+      "start_time": "2023/05",
+      "end_time": "2023/07",
+      "tags": ["编程", "数据库", "产品"],
+      "status": "即将开始",
+      "link": "https://tidbhackathon2023.devpost.com/"
+    },
+    {
+      "image": "A3.png",
+      "title": "SCS Splash Awards",
+      "price": 8000,
+      "target": "保Top10",
+      "start_time": "2023/05",
+      "end_time": "2023/07",
+      "tags": ["编程", "产品", "创新"],
+      "status": "即将开始",
+      "link": "https://www.scs.org.sg/awards/splash/2023/competition-details"
+    }
+  ],
+  "B": [
+    {
+      "image": "B1.png",
+      "title": "AI Mathematical Olymipiad",
+      "price": 4000,
+      "target": "保银牌",
+      "start_time": "2023/03",
+      "end_time": "2024/06",
+      "tags": ["数学", "统计", "编程"],
+      "status": "正在进行",
+      "link": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize"
+    },
+    {
+      "image": "B2.png",
+      "title": "Home Credit - Credit Risk Model Stability",
+      "price": 4000,
+      "target": "保银牌",
+      "start_time": "2024/02",
+      "end_time": "2024/05",
+      "tags": ["编程", "统计", "机器学习"],
+      "status": "正在进行",
+      "link": "https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability"
+    },
+    {
+      "image": "B3.png",
+      "title": "Optiver - Trading at the Close",
+      "price": 4000,
+      "target": "保银牌",
+      "start_time": "2024/03",
+      "end_time": "2024/06",
+      "tags": ["编程", "机器学习", "量化"],
+      "status": "正在进行",
+      "link": "https://www.kaggle.com/competitions/optiver-trading-at-the-close"
+    }
+  ],
+  "courses": [
+    {
+      "name": "深入全栈开发",
+      "price": 3000,
+      "link": "#",
+      "image": "C1.png"
+    },
+    {
+      "name": "深入机器学习",
+      "price": 3000,
+      "link": "#",
+      "image": "C2.png"
+    },
+    {
+      "name": "深入量化交易",
+      "price": 3000,
+      "link": "#",
+      "image": "C3.png"
+    },
+    {
+      "name": "深入GPT提示工程",
+      "price": 2000,
+      "link": "#",
+      "image": "C4.png"
+    },
+    {
+      "name": "深入Idea构思指导",
+      "price": 2000,
+      "link": "#",
+      "image": "C5.png"
+    },
+    {
+      "name": "Presentation技能提升",
+      "price": 2000,
+      "link": "#",
+      "image": "C6.png"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Jacky 爸爸",
+      "title": "学生家长",
+      "avatar": "R4.jpg",
+      "text": "Tan Kiat How 陈杰豪部长亲自颁奖哈哈! 朋友圈点赞都疯了, 呼呼的!"
+    },
+    {
+      "name": "Jerry 妈妈",
+      "title": "学生家长",
+      "avatar": "R11.jpg",
+      "text": "让孩子上台演讲确实很锻炼孩子, 真心感谢老师们的指导! 给了我老母亲得瑟的资本哈哈! "
+    },
+    {
+      "name": "Jacky 爸爸",
+      "title": "学生家长",
+      "avatar": "R5.jpg",
+      "text": "学校要申请给Jerry的O水准考试加分! 给他的学校创造了历史, 从来没有学生获得过这个奖! "
+    },
+    {
+      "name": "Jacky 妈妈",
+      "title": "学生家长",
+      "avatar": "R12.jpg",
+      "text": "下次设计课程也要带上Jacky一起, 看两位大神老师讨论也很有收获!"
+    }
+  ],
+  "team": {
+    "main_team": [
+      {
+        "name": "胡老师",
+        "title": "机器学习, 量化金融",
+        "avatar": "R1.jpg",
+        "contents": {
+          "normal": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "双专业计算机和统计学，辅修经济",
+            "北京大学交换生"
+          ],
+          "hover": [
+            "30+ 国家级 / 国际级大赛金牌荣誉",
+            "多门计算机核心课程助教TA",
+            "资深软件工程师, 量化金融研究顾问"
+          ]
+        }
+      },
+      {
+        "name": "张老师",
+        "title": "全栈开发, 数据结构和算法",
+        "avatar": "R2.jpg",
+        "contents": {
+          "normal": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "双专业计算机和统计学",
+            "新加坡国立大学计算机学院杰出学生奖"
+          ],
+          "hover": [
+            "30+ 国家级 / 国际级大赛金牌荣誉",
+            "VIP@SOC 投资创业项目获得者",
+            "资深软件工程师，多家公司联合创始人"
+          ]
+        }
+      }
+    ],
+    "sub_team": [
+      {
+        "name": "瞿老师",
+        "title": "全栈开发",
+        "avatar": "R13.jpg",
+        "contents": {
+          "normal": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "主修计算机",
+            "大厂软件工程师"
+          ],
+          "hover": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "主修计算机",
+            "大厂软件工程师"
+          ]
+        }
+      },
+      {
+        "name": "柳老师",
+        "title": "全栈开发",
+        "avatar": "R14.jpg",
+        "contents": {
+          "normal": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "主修计算机",
+            "大厂软件工程师"
+          ],
+          "hover": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "主修计算机",
+            "大厂软件工程师"
+          ]
+        }
+      },
+      {
+        "name": "杨老师",
+        "title": "数据科学",
+        "avatar": "R3.jpg",
+        "contents": {
+          "normal": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "主修计算机",
+            "大厂软件工程师"
+          ],
+          "hover": [
+            "新加坡国立大学杰出荣誉毕业生",
+            "主修计算机",
+            "大厂软件工程师"
+          ]
+        }
+      }
+    ]
+  }
+}

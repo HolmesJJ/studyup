@@ -1,0 +1,57 @@
+{
+  "name": "study-up",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set PORT=8000 && react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:css:fix": "stylelint \"**/*.css\" --fix"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.17.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "sass": "^1.76.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/eslint": "^8.4.1",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-scss": "^6.3.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

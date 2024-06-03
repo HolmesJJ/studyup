@@ -1,0 +1,791 @@
+@media screen and (width <= 1024px) {
+  .competition {
+    width: 100% !important;
+  }
+
+}
+
+.competition {
+  .title {
+    font-family: eryaxindahei;
+    color: #fff;
+  }
+
+  // pc
+  @media screen and (width >= 1440px) {
+    .title {
+      font-size: 96px;
+      font-weight: 700;
+      line-height: 150px;
+      margin-bottom: 80px;
+    }
+
+    .level {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .level_item_title {
+      .num {
+        font-size: 128px;
+        font-weight: 700;
+        line-height: 140px;
+      }
+
+      .text {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 52.8px;
+      }
+    }
+
+    .class_list {
+      width: 640px;
+      max-height: 1072px;
+      padding: 30px 0 30px 30px;
+      gap: 20px;
+
+      .scroll_bar {
+        top: 243px;
+        right: 11px;
+      }
+
+      .card {
+        width: 554px;
+        height: 324px;
+
+        .price {
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 50px;
+          margin-bottom: 20px;
+
+          .unit {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 50px;
+            transform: translateY(5px);
+          }
+        }
+
+        .content {
+          margin-bottom: 20px;
+
+          .image {
+            width: 160px;
+            height: 160px;
+          }
+
+          .desc {
+            width: 334px !important;
+          }
+
+          .desc_title {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38px;
+            margin-bottom: 20px;
+          }
+
+          .date {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+          }
+        }
+
+        .status {
+          .left_status {
+            gap: 16px;
+
+            .tag {
+              height: 30px;
+              padding: 2px 10px;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22px;
+            }
+          }
+
+          .right_status {
+            .tag {
+              padding: 6px 10px;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // pad
+  @media screen and (width >= 1024px) and (width <= 1440px) {
+    .title {
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 70.4px;
+      margin-bottom: 60px;
+
+    }
+
+    .level {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .level_item_title {
+      .num {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 105.6px;
+      }
+
+      .text {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35.2px;
+      }
+    }
+
+    .class_list {
+      width: 486px;
+      max-height: 869px;
+      padding: 20px 0 20px 20px;
+      gap: 12px;
+
+      .scroll_bar {
+        top: 194px;
+        right: 8px;
+      }
+
+      .card {
+        width: 425px;
+        height: 263px;
+
+        .top_icon {
+          top: 0 !important;
+        }
+
+        .price {
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 44.8px;
+          margin-bottom: 10px;
+
+          .unit {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 44px;
+            transform: translateY(3px);
+          }
+        }
+
+        .content {
+          margin-bottom: 10px;
+
+          .image {
+            width: 140px;
+            height: 140px;
+          }
+
+          .desc {
+            width: 225px !important;
+          }
+
+          .desc_title {
+            margin-bottom: 12px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+          }
+
+          .date {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+          }
+        }
+
+        .status {
+          .left_status {
+            gap: 16px;
+
+            .tag {
+              height: 28px;
+              padding: 4px 10px;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 19.6px;
+            }
+          }
+
+          .right_status {
+            .tag {
+              padding: 6px 10px;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 22px;
+            }
+          }
+        }
+
+
+      }
+    }
+  }
+
+  /* 手机 */
+  @media screen and (width <= 1024px) {
+    .title {
+      font-size: 8.5vw;
+      font-weight: 700;
+      line-height: 9.3vw;
+      margin-bottom: 8vw;
+    }
+
+    .level {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 8vw;
+    }
+
+    .level_item {
+      width: 100% !important;
+      gap: 3.2vw;
+    }
+
+    .level_item_title {
+      .num {
+        font-size: 12.8vw;
+        font-weight: 700;
+        line-height: 14vw;
+        margin-right: 1.6vw;
+      }
+
+      .text {
+        font-size: 5.3vw;
+        font-weight: 700;
+        line-height: 5.8vw;
+      }
+    }
+
+    .class_list {
+      width: 100%;
+      max-height: 160vw;
+      padding: 3.2vw 0 3.2vw 3.2vw;
+      gap: 3.2vw;
+      overflow: scroll;
+
+
+      .scroll_bar {
+        display: none;
+        top: 8vw;
+        right: 8vw;
+      }
+
+      .card {
+        width: 80.8vw;
+        height: 45.6vw;
+
+        .top_icon {
+          top: 0 !important;
+          border-top-right-radius: 24px !important;
+          border-bottom-left-radius: 7.5vw !important;
+          width: 21.3vw !important;
+          height: 7.5vw !important;
+          font-family: eryaxindahei;
+          font-size: 3.2vw;
+          font-weight: 400;
+          line-height: 3.5vw;
+
+          .star_icon {
+            top: 0.5vw !important;
+            left: 2.4vw !important;
+            width: 2.1vw;
+            height: 2.9vw;
+          }
+
+          .wavy {
+            right: 1.3vw !important;
+            bottom: 1.6vw !important;
+            width: 3.2vw;
+            height: 1.3vw;
+          }
+        }
+
+        .price {
+          margin-bottom: 2.1vw;
+          font-size: 5.2vw;
+          font-weight: 600;
+          line-height: 7.4vw;
+
+          .unit {
+            font-size: 3.2vw;
+            font-weight: 600;
+            line-height: 7.4vw;
+            transform: translateY(1vw);
+          }
+        }
+
+        .content {
+          margin-bottom: 2.1vw;
+
+          .image {
+            width: 20.2vw;
+            height: 20.2vw;
+          }
+
+          .desc {
+            width: 44.5vw !important;
+          }
+
+          .desc_title {
+            font-size: 4.2vw;
+            font-weight: 400;
+            line-height: 5.3vw;
+            margin-bottom: 2.1vw;
+          }
+
+          .date {
+            font-size: 3.5vw;
+            font-weight: 400;
+            line-height: 4.8vw;
+          }
+        }
+
+        .status {
+          .left_status {
+            gap: 2.1vw;
+
+            .tag {
+              height: 5vw;
+              padding: 0 1.6vw;
+              font-size: 2.9vw;
+              font-weight: 400;
+              line-height: 5vw;
+              border-radius: 0 2.8vw 2.8vw !important;
+            }
+          }
+
+          .right_status {
+            .tag {
+              padding: 1.6vw 2.6vw;
+              font-size: 3.7vw;
+              font-weight: 700;
+              line-height: 4vw;
+            }
+          }
+        }
+      }
+
+      .more {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: eryaxindahei;
+        font-size: 3.7vw;
+        font-weight: 700;
+        line-height: 4.1vw;
+        width: 24.8vw;
+        height: 7.2vw;
+        border-radius: 8px;
+        margin: 0 auto;
+        border: 0.1vw solid #5886FF;
+
+        img {
+          width: 3.5vw;
+          height: 2.1vw;
+          margin-left: 1vw;
+        }
+
+      }
+    }
+  }
+
+  .com_popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 50%);
+
+    /* 半透明黑色背景 */
+    z-index: 999;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .com_popup_content::-webkit-scrollbar {
+      width: 0;
+    }
+
+    .scroll_bar {
+      position: fixed;
+      top: calc(50% - 48vw);
+      right: 8vw;
+      width: 1.3vw;
+      height: 35vw;
+      background-color: #172235;
+      border-radius: 1vw;
+      z-index: 99;
+      transform: translateY(-50%);
+
+      .light {
+        position: absolute;
+        width: 100%;
+        height: 7vw;
+        background-color: #486085;
+        border-radius: 1vw;
+      }
+    }
+
+    .com_popup_content {
+      position: relative;
+      width: 91vw;
+      height: 146vw;
+      border-radius: 6vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      border: 1px solid #5886FF;
+      background-color: #0b111c;
+      padding: 3.2vw 7.5vw 0 3.2vw;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .card {
+        position: relative;
+        width: 80.8vw;
+        height: 45.6vw;
+        margin-bottom: 3.2vw;
+        background-color: #172235;
+        padding: 3.2vw 3.2vw 0;
+        border-radius: 3.2vw;
+
+        .top_icon {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 21.3vw;
+          height: 7.5vw;
+          background-color: #5886ff;
+          border-radius: 0 3.2vw 0 8vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: eryaxindahei;
+          font-size: 3.2vw;
+          font-weight: 400;
+          line-height: 3.5vw;
+          color: #fff;
+
+          .star_icon {
+            position: absolute;
+            top: 0.5vw;
+            left: 2vw;
+          }
+
+          .wavy {
+            position: absolute;
+            bottom: 1vw;
+            right: 2vw;
+          }
+        }
+
+        .price {
+          font-family: "PingFang SC";
+          font-size: 5.3vw;
+          font-weight: 600;
+          line-height: 7.5vw;
+          text-align: left;
+          color: #9CB2EC;
+          margin-bottom: 2.1vw;
+        }
+
+        .content {
+          display: flex;
+          margin-bottom: 2.1vw;
+
+          .image {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 2.1vw;
+            margin-right: 3.2vw;
+          }
+
+          .desc {
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .desc_title {
+              word-break: break-all;
+              font-family: eryaxindahei;
+              font-size: 4.2vw;
+              font-weight: 400;
+              line-height: 5.3vw;
+              text-align: left !important;
+              margin-bottom: 2.1vw;
+            }
+
+            .date {
+              font-family: "PingFang SC";
+              font-size: 3.5vw;
+              font-weight: 400;
+              line-height: 4.8vw;
+              text-align: left;
+
+            }
+          }
+        }
+
+        .status {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .left_status {
+            display: flex;
+
+            .tag {
+              border: 0.5px solid #9CB2EC;
+              color: #9CB2EC;
+              margin-right: 2.1vw;
+              font-family: "PingFang SC";
+              font-size: 2.9vw;
+              font-weight: 400;
+              line-height: 4.1vw;
+              padding: 0.5vw 1.6vw;
+              border-radius: 0 3vw 3vw;
+            }
+          }
+
+          .right_status {
+            .tag {
+              box-shadow: 0 2px 4px 0 #0000008F;
+              color: #fff;
+              border: 0.5px solid #5886FF;
+              font-family: eryaxindahei;
+              font-size: 3.7vw;
+              font-weight: 700;
+              line-height: 4.1vw;
+              padding: 1.6vw 2.6vw;
+              border-radius: 2.1vw;
+
+            }
+
+            .active {
+              background: linear-gradient(180deg, #5887FF 0%, #5886FF 0.01%, #3649F3 100%);
+              color: #fff;
+              border: 0;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+  .level_item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%;
+    box-sizing: border-box;
+
+    .level_item_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .num {
+        color: #9CB2EC;
+      }
+
+      .text {
+        color: #fff;
+      }
+    }
+
+    .level_star {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+      color: #9CB2EC;
+
+      .starts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .class_list::-webkit-scrollbar {
+      width: 0;
+      height: 100px !important; // 高度写不写，都不影响，因为会根据内容的长度自动计算
+    }
+
+    .class_list::-webkit-scrollbar-thumb {
+      background: #172235; // 滑块颜色
+      border-radius: 5px; // 滑块圆角
+    }
+
+    .class_list {
+      display: flex;
+      flex-direction: column;
+      border-radius: 32px;
+      border: 3px solid #5886FF;
+      background-color: #0b111c;
+      box-sizing: border-box;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .scroll_bar {
+        position: absolute;
+        width: 6px;
+        height: 130px;
+        background-color: #172235;
+        border-radius: 3px;
+
+        // #486085
+        .light {
+          background-color: #486084;
+          position: absolute;
+          width: 100%;
+          height: 20%;
+          border-radius: 3px;
+        }
+      }
+
+      .card {
+        position: relative;
+        border-radius: 24px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #172235;
+
+        .top_icon {
+          position: absolute;
+          top: 10px;
+          right: 0;
+          width: 110px;
+          height: 40px;
+          border-radius: 0 48px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #5886FF;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 17.6px;
+          color: #fff;
+
+          .star_icon {
+            position: absolute;
+            top: 5px;
+            left: 15px;
+          }
+
+          .wavy {
+            position: absolute;
+            right: 7px;
+            bottom: 10px;
+          }
+        }
+
+        .price {
+          display: flex;
+          color: #9CB2EC;
+        }
+
+        .content {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: start;
+          color: #fff;
+
+          .image {
+            border-radius: 16px;
+            margin-right: 20px;
+          }
+
+          .desc {
+            flex: 1;
+            width: 66%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+            .desc_title {
+              width: 100%;
+              font-family: eryaxindahei;
+              word-wrap: break-word;
+              text-align: left;
+            }
+
+            .date {
+              font-family: "PingFang SC";
+            }
+          }
+        }
+
+        .status {
+          display: flex;
+          justify-content: space-between;
+
+          .left_status {
+            display: flex;
+
+            .tag {
+              border-radius: 0 8px 8px;
+              font-family: "PingFang SC";
+              color: #9CB2EC;
+              border: 1px solid #9CB2EC
+            }
+          }
+
+          .right_status {
+            .tag {
+              border-radius: 8px;
+              border: 1px solid #5886FF;
+              font-family: eryaxindahei;
+              color: #fff;
+
+            }
+
+            .active {
+              background: linear-gradient(180deg, #5887FF 0%, #5886FF 0.01%, #3649F3 100%);
+              color: #fff;
+              border: 0;
+            }
+          }
+        }
+      }
+
+      .more {
+        display: none;
+      }
+    }
+  }
+}

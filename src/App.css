@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+}
+
+img {
+  cursor: pointer;
+}
+
+.cur-point {
+  cursor: pointer;
+}
+
+/* Mobile */
+@media screen and (width <= 1024px) {
+  .app {
+    width: 100vw;
+  }
+}
+
+/* Tablet */
+@media screen and (width >= 1024px) and (width <= 1440px) {
+  .app {
+    min-width: 1024px;
+  }
+}
+
+/* Desktop */
+@media screen and (width >= 1440px) {
+  .app {
+    min-width: 1440px;
+  }
+}
