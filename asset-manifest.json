@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b40f34c.css",
-    "main.js": "/static/js/main.deb3a3eb.js",
+    "main.js": "/static/js/main.7c742f4d.js",
     "static/js/25.63e0ab5d.chunk.js": "/static/js/25.63e0ab5d.chunk.js",
     "static/js/314.cbba3c0e.chunk.js": "/static/js/314.cbba3c0e.chunk.js",
     "static/js/531.c801cb84.chunk.js": "/static/js/531.c801cb84.chunk.js",
@@ -48,7 +48,6 @@
     "static/media/C1.png": "/static/media/C1.6aeb58303a39b7a2fb86.png",
     "static/media/C4.png": "/static/media/C4.e46c51c709196a72a98c.png",
     "static/media/C6.png": "/static/media/C6.fb9905e94f83f8fd1de4.png",
-    "static/media/whatsapp-qrcode.jpg": "/static/media/whatsapp-qrcode.8ae831d70b1c605b2654.jpg",
     "static/media/header4.jpg": "/static/media/header4.22093c86a851e5be62a8.jpg",
     "static/media/logo.svg": "/static/media/logo.26100111bc2bc224709c14b040d27a7a.svg",
     "static/media/R10.jpg": "/static/media/R10.ca4a6f4dc7ea7d761415.jpg",
@@ -71,7 +70,6 @@
     "static/media/R13.jpg": "/static/media/R13.41c0c387368b89cff311.jpg",
     "static/media/R14.jpg": "/static/media/R14.e3eaaecd767b97fcb3a2.jpg",
     "static/media/R12.jpg": "/static/media/R12.330edae9593b5d38eeca.jpg",
-    "static/media/wechat-phone.svg": "/static/media/wechat-phone.850ec3edc7b2deba0f0f5a5f7a89950c.svg",
     "static/media/wechat-logo.svg": "/static/media/wechat-logo.99395b0c1bf32b934eceed5ce9b9cad6.svg",
     "static/media/earth.svg": "/static/media/earth.e04113eadaa2be2a8cef86dd42eb3440.svg",
     "index.html": "/index.html",
@@ -83,11 +81,11 @@
     "static/media/right-point.svg": "/static/media/right-point.f2e5ae534c4213da3689a92a4ef11d48.svg",
     "static/media/angle.svg": "/static/media/angle.d0b7303c0536d37b35ff74c181748c2e.svg",
     "main.4b40f34c.css.map": "/static/css/main.4b40f34c.css.map",
-    "main.deb3a3eb.js.map": "/static/js/main.deb3a3eb.js.map",
+    "main.7c742f4d.js.map": "/static/js/main.7c742f4d.js.map",
     "453.d11ca5c1.chunk.js.map": "/static/js/453.d11ca5c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b40f34c.css",
-    "static/js/main.deb3a3eb.js"
+    "static/js/main.7c742f4d.js"
   ]
 }
