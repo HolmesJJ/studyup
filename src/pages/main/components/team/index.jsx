@@ -68,11 +68,6 @@ const Team = ({ team }) => {
         <span>团队</span>介绍
       </div>
       <div className="card_list_wrap">
-        <div className="card_list">
-          {team.main_team.map((item, index) => {
-            return <Card item={item} cls={cls} light={light} key={index} />;
-          })}
-        </div>
         <div className="card_list card_list_short">
           {team.sub_team.map((item, index) => {
             return <Card item={item} light={light} key={index} />;

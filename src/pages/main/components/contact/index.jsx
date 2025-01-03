@@ -8,14 +8,12 @@ import f3 from '../../../../static/frame/Frame(3).png';
 import f4 from '../../../../static/frame/Frame(4).png';
 import logo from '../../../../static/logo.svg';
 import wechatLogo from '../../../../static/wechat-logo.svg';
-import wechatPhone from '../../../../static/wechat-phone.svg';
 import wechatQRcode from '../../../../static/wechat-qrcode.jpg';
-import whatsappQRcode from '../../../../static/whatsapp-qrcode.jpg';
 
 const Contact = () => {
   const open = (index) => {
     if (index === 0) {
-      window.open('https://sg.linkedin.com/in/zhang-zhiyao-bluebell-b5971b165', '_blank');
+      window.open('https://www.linkedin.com/company/studyup-io/', '_blank');
     } else if (index === 1) {
       window.open('https://www.tiktok.com/@studyup.io', '_blank');
     } else if (index === 2) {
@@ -38,13 +36,6 @@ const Contact = () => {
           <div className="info">
             <img className="wechat_icon" src={wechatLogo} alt="" />
             <div className="info_name">微信</div>
-          </div>
-        </div>
-        <div className="qrcode_item">
-          <img className="qrcode_img" src={whatsappQRcode} alt="" />
-          <div className="info">
-            <img className="wechat_icon" src={wechatPhone} alt="" />
-            <div className="info_name">WhatsApp</div>
           </div>
         </div>
       </div>
