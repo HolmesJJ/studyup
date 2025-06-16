@@ -1,7 +1,7 @@
 {
   "name": "study-up",
   "version": "0.1.0",
-  "homepage": "https://holmesjj.github.io",
+  "homepage": "https://holmesjj.github.io/studyup",
   "private": true,
   "scripts": {
     "dev": "set PORT=8000 && react-scripts start",
